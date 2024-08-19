@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: generativeAI
+  ai:
+    openai:
+      api-key: "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"
+      chat:
+        options:
+          model: gpt-4
+          response:-format: JSON_SCHEMA
+        base-url: https://api.openai.com/v1/chat/completions
+
